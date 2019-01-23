@@ -48,8 +48,8 @@
                 </includes>
             </testResource>
         </testResources>
-        <plugins>
-            <plugin>
+         <plugins>
+           <!-- <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
                     <annotationProcessors>
@@ -57,7 +57,7 @@
                         </annotationProcessor>
                     </annotationProcessors>
                 </configuration>
-            </plugin>
+            </plugin> -->
             <plugin>
                 <artifactId>maven-jar-plugin</artifactId>
                 <executions>
