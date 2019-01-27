@@ -9,7 +9,7 @@ echo "Collected TFGs"
 
 cd /home/t2r/error-prone/core/
 
-mvn exec:java -Dexec.args="/home/t2r/Artifacts/CoreNLP/t2r/"
+mvn exec:java -Dexec.args="/home/t2r/Artifacts/neo4j/t2r/"
 
 echo "Refactorables Collected"
 
@@ -17,7 +17,7 @@ echo "Now Generating patches"
 
 cd -
 
-mvn clean install -DskipTests
+mvn clean install -Dmaven.test.skip=true
 
 echo "Packages generated"
 

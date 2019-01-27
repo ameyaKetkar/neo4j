@@ -1,5 +1,5 @@
 cd /home/t2r/Artifacts/neo4j/community/kernel/
 
-mvn package -DskipTests
+mvn clean install -Dmaven.test.skip=true
 
-echo "If build issuccessful, so is the transformation :) "
+echo "If build is successful, so is the transformation :) "
