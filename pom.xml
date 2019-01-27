@@ -830,7 +830,7 @@
           <target>8</target>
           <compilerArgs>
             <arg>-XDcompilePolicy=simple</arg>
-            <arg>-Xplugin:ErrorProne -XepDisableAllChecks -Xep:T2R -XepOpt:T2R:mappingLocation=${project.basedir}/mappings/ -XepPatchChecks:T2R -XepPatchLocation:${project.basedir}/</arg>
+            <arg>-Xplugin:ErrorProne -XepDisableAllChecks -Xep:T2R -XepOpt:T2R:mappingLocation=/home/t2r/Artifacts/neo4j/t2r/ -XepPatchChecks:T2R -XepPatchLocation:${project.basedir}/</arg>
           </compilerArgs>
           <annotationProcessorPaths>
             <path>
